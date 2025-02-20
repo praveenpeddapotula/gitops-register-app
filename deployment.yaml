@@ -13,7 +13,7 @@ spec:
         app: register-app
     spec:
       containers:
-        - name: register-app:
+        - name: register-app
           image: praveenpeddapotula/register-app
           resources:
             limits:
